@@ -19,6 +19,22 @@
     background-color: green;
 }
 
+
+/*indetificar elementos com prefixo
+[href^="http://"]{
+    background-color: lightgreen;
+}*/
+
+/*indetificar elementos com sufixo
+[href$="login"]{
+    background-color: lightgreen;
+}*/
+
+/*identificar a palavra independente do local*/
+[href*="br"]{
+    background-color: lightgreen;
+}
+
 </style>
 
 <body>
@@ -26,6 +42,9 @@
     <p title="">CSS in attribute!</p>
     <p title="especify">CSS in attribute!</p>
     <p title="especify-ola">CSS in attribute!</p>
-    
+
+    <a href="https://www.netflix.com/br/">netflix</a><br>
+    <a href="https://www.youtube.com/login">youtube</a><br>
+    <a href="http://www.facebook.com">facebook</a><br>
 </body>
 </html>
