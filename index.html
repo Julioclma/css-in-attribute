@@ -11,16 +11,21 @@
     background-color: red;
 }
 
-[title~="especify"]{
+/*[title~="especify"]{
+    background-color: green;
+}*/
+
+[title|="especify"]{
     background-color: green;
 }
+
 </style>
 
 <body>
 
     <p title="">CSS in attribute!</p>
     <p title="especify">CSS in attribute!</p>
-    <p title="ola especify">CSS in attribute!</p>
+    <p title="especify-ola">CSS in attribute!</p>
     
 </body>
 </html>
